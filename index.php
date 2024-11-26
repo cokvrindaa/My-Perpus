@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Perpus</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="kontainer">
         <div class="kontaineratas">
-            <h3>My <span>perpspanus</span></h3>
+            <h3>My Perpus</h3>
             <a href="add.php">
             <button>Add employee</button>
             </a>
