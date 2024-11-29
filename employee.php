@@ -10,7 +10,7 @@ if ($query){
     echo "
         <script>
             alert('new employee');
-            location.href = 'index.php';
+            location.href = 'main.php';
         </script>
     ";
 }
@@ -18,7 +18,7 @@ else{
     echo "
         <script>
             alert('failed');
-            location.href = 'index.php';
+            location.href = 'main.php';
         </script>
     ";
 }

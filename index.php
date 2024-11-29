@@ -1,54 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Perpus</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+    <?php include "stylelogin.css"?>
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <div class="kontainer">
-        <div class="kontaineratas">
-            <h3>My Perpus</h3>
-            <a href="add.php">
-            <button>Add employee</button>
-            </a>
+        <div class="judul">
+            <i>
+                <h1>My <span>Perpus</span></h1>
+            </i>
         </div>
-        <div class="form-table">
-            <table>
-                <tr>
-                    <th>No</th>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Address</th>
-                    <th>Phone</th>
-                    <th>Action</th>
-                </tr>
-                <?php
-                    include "config.php";
-                    $sql = "select * from crudtabel.datanegara";
-                    $query = mysqli_query($koneksi, $sql);
-                    $no = 1;
-                    foreach ($query as $data){
-                ?>
-                    <tr>
-                        <td><?php echo $no ?></td>
-                        <td><?php echo $data['nama'] ?></td>
-                        <td><?php echo $data['email'] ?></td>
-                        <td><?php echo $data['alamat'] ?></td>
-                        <td><?php echo $data['telepon'] ?></td>
-                        <td>
-                            <a href="edit.php?id=<?php echo $data['id'] ?>" class="edit">Edit</a>
+        <div class="form">
+            <p>Silahkan masukin pasword dan username yang benar!</p>
+            <form action="">
+                <div class="input">
+                    <label for="username">Username : </label>
+                    <input type="text" name="username">
 
-                            <a href="hapus.php?id=<?php echo $data['id'] ?>">Delate</a>
-                        </td>
-                    </tr>
-                    <?php
-                        $no += 1;
-                    }
-                    ?>
-            </table>
+                </div>
+                <div class="input">
+                    <label for="password">Password : </label>
+                    <input type="text" name="password">
+                </div>
+            </form>
         </div>
     </div>
 </body>
+
 </html>

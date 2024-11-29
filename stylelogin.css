@@ -1,0 +1,65 @@
+html {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0 px;
+}
+:root {
+  --primary: rgb(4, 70, 176);
+}
+span {
+  color: var(--primary);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.kontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 800px;
+  max-height: 500px;
+  width: 100%;
+}
+
+.judul h1 {
+  font-size: 80px;
+  margin: 0;
+}
+
+.form {
+  display: flex;
+  /* border: solid black 1px; */
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* margin-top: -15px; */
+  padding: 10px;
+}
+.form p{
+  font-size: 20px;
+}
+
+.input{
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+input{
+  width: 300px;
+  border-radius: 5px;
+}
+label {
+  width: 100px; /* Pastikan label memiliki lebar yang konsisten */
+  text-align: left; /* Agar teks rata kanan */
+}

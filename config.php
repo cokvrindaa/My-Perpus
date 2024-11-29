@@ -1,9 +1,17 @@
 <?php
     $koneksi =  mysqli_connect('localhost', 'root', '', 'crudtabel');
     if ($koneksi){
-        echo "koneksi berhasil!";
+        echo "
+        <script>
+            console.log('koneksi berhasil');
+        </script>
+        ";
     }
     else{
-        echo "koneksi tidak berhasil";
+        echo "
+        <script>
+            console.log('koneksi tidak berhasil');
+        </script>
+        ";
     }
 ?>

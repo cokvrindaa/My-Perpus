@@ -7,7 +7,7 @@
         echo "
             <script>
                 alert('berhasil di hapus');
-                location.href = 'index.php';
+                location.href = 'main.php';
             </script>
         ";
     }
@@ -15,7 +15,7 @@
         echo "
             <script>
                 alert('failed');
-                location.href = 'index.php';
+                location.href = 'main.php';
             </script>
         ";
     }
