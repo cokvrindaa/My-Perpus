@@ -29,6 +29,7 @@
             <table>
                 <tr>
                     <th>No</th>
+                    <th>Judul Buku</th>
                     <th>Nama</th>
                     <th>Email</th>
                     <th>Alamat</th>
@@ -44,6 +45,7 @@
                 ?>
                 <tr>
                     <td><?php echo $no ?></td>
+                    <td><?php echo $data['buku'] ?></td>
                     <td><?php echo $data['nama'] ?></td>
                     <td><?php echo $data['email'] ?></td>
                     <td><?php echo $data['alamat'] ?></td>

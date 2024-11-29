@@ -18,11 +18,11 @@
 <body>
     <div class="kontainer">
         <div class="kontaineratas">
-            <h3>Edit Employe</h3>
+            <h3>Edit Data</h3>
         </div>
         <div class="form-table">
             <form action="update.php" method="post">
-                <div class="employee">
+                <div class="form">
                     <?php
                         include "config.php";
                         $id = $_GET['id'];
@@ -31,26 +31,30 @@
                         foreach($query as $data){
                     ?>
                     <input type="text" value="<?php echo $id?>" name="id" hidden>
-                    <div>
+                    <div class="input">
+                        <label for="name">Judul Buku : </label>
+                        <input type="text" value="<?php echo $data['buku']?>" name="buku">
+                    </div>
+                    <div class="input">
                         <label for="name">Nama : </label>
                         <input type="text" value="<?php echo $data['nama']?>" name="nama">
                     </div>
-                    <div>
+                    <div class="input">
                         <label for="name">Email : </label>
                         <input type="text" value="<?php echo $data['email']?>" name="email">
                     </div>
-                    <div>
+                    <div class="input">
                         <label for="name">Alamat : </label>
                         <input type="text" value="<?php echo $data['alamat']?>" name="alamat">
                     </div>
-                    <div>
+                    <div class="input">
                         <label for="name">Telepon :</label>
                         <input type="text" value="<?php echo $data['telepon']?>" name="telepon">
                     </div>
                     <div>
                         <div>
-                            <input type="submit" value="submit">
-                            <a href="main.php">View Table</a>
+                            <input type="submit" value="Submit" class="submit">
+                            <a href="main.php" class="back">Lihat Table</a>
                         </div>
                     </div>
                     <?php

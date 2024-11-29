@@ -1,15 +1,16 @@
 <?php
 include "config.php";
 $nama = $_POST['nama'];
+$buku = $_POST['buku'];
 $email = $_POST['email'];
 $alamat = $_POST['alamat'];
 $telepon = $_POST['telepon'];
-$sql = "insert into crudtabel.datanegara values('', '$nama', '$email', '$alamat', '$telepon')";
+$sql = "insert into crudtabel.datanegara values('', '$buku', '$nama', '$email', '$alamat', '$telepon')";
 $query = mysqli_query($koneksi, $sql);
 if ($query){
     echo "
         <script>
-            alert('new employee');
+            alert('data berhasil ditambahkan');
             location.href = 'main.php';
         </script>
     ";

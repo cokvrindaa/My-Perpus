@@ -18,31 +18,35 @@
 <body>
     <div class="kontainer">
         <div class="kontaineratas">
-            <h3>Employee List</h3>
+            <h3>Tambahkan data</h3>
         </div>
         <div class="form-table">
             <form action="employee.php" method="post">
-                <div class="employee">
-                    <div>
+                <div class="form">
+                    <div class="input">
+                        <label for="nama">Judul buku: </label>
+                        <input type="text" placeholder="Tuliskan judul buku" name="buku" required>
+                    </div>
+                    <div class="input">
                         <label for="nama">Name: </label>
-                        <input type="text" placeholder="Enter Username" name="nama" required>
+                        <input type="text" placeholder="Tuliskan Username" name="nama" required>
                     </div>
-                    <div>
+                    <div class="input">
                         <label for="email">Email</label>
-                        <input type="email" placeholder="Enter Email" name="email" required>
+                        <input type="email" placeholder="Tuliskan Email" name="email" required>
                     </div>
-                    <div>
+                    <div class="input">
                         <label for="alamat">Alamat</label>
                         <input type="text" placeholder="Tuliskan Alamat" name="alamat" required>
                     </div>
-                    <div>
+                    <div class="input">
                         <label for="telepon">Telepon :</label>
-                        <input type="text" placeholder="Enter telepon " name="telepon" required>
+                        <input type="text" placeholder="Tuliskan telepon " name="telepon" required>
                     </div>
                     <div>
                         <div>
-                            <input type="submit" value="submit">
-                            <a href="main.php">View Tabel</a>
+                            <input type="submit" value="submit" class="submit">
+                            <a href="main.php" class="back">Lihat Tabel</a>
                         </div>
                     </div>
                 </div>
