@@ -21,7 +21,7 @@
             <h3>Tambahkan data</h3>
         </div>
         <div class="form-table">
-            <form action="employee.php" method="post">
+            <form action="tambahdata.php" method="post">
                 <div class="form">
                     <div class="input">
                         <label for="nama">Judul buku: </label>

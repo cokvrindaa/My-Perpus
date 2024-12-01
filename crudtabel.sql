@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 26, 2024 at 11:37 AM
+-- Generation Time: Dec 01, 2024 at 02:00 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -29,11 +29,20 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `datanegara` (
   `id` int(11) NOT NULL,
+  `buku` varchar(100) NOT NULL,
   `nama` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL,
   `alamat` varchar(100) NOT NULL,
   `telepon` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `datanegara`
+--
+
+INSERT INTO `datanegara` (`id`, `buku`, `nama`, `email`, `alamat`, `telepon`) VALUES
+(21, 'dfsdf', 'dfdsf@fdsfsd', 'sdf@sfdfds', 'fdsf', 'sdfsdf'),
+(22, 'sdfdf', 'fsdfsf@fdsaf', 'dfsdf@fdsa', 'fdsfds', 'fdsfsdf');
 
 --
 -- Indexes for dumped tables
@@ -53,7 +62,7 @@ ALTER TABLE `datanegara`
 -- AUTO_INCREMENT for table `datanegara`
 --
 ALTER TABLE `datanegara`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
