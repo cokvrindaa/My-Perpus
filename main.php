@@ -1,3 +1,17 @@
+<?php
+    //agar tidak masuk langsung ke main tanpa login. 
+    session_start();
+
+    if (!isset($_SESSION["name"])){
+        echo "
+        <script>
+            alert('login terlebih dahulu!!!');
+            location.href = 'index.php';
+        </script>
+    ";
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,9 +35,15 @@
             <i>
                 <h3 style="font-size: 30px;">My <span>Perpus</span></h3>
             </i>
-            <a href="add.php">
-                <button>Tambahkan data</button>
-            </a>
+            <div class="kiri">
+                <a href="add.php">
+                    <button>Tambahkan data</button>
+                </a>
+                <a href="logout.php">
+                    <button>Logout</button>
+                </a>
+            </div>
+
         </div>
         <div class="form-table">
             <table>

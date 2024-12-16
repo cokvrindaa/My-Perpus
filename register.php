@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-    <?php include "stylelogin.css"?>
+    <?php include "styleregister.css"?>
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,8 +23,8 @@
             </i>
         </div>
         <div class="form">
-            <p>Silahkan masukin pasword dan username yang benar!</p>
-            <form action="login.php" method="post">
+            <p style="margin-top: 50px;">Silahkan daftar akun, dan isi lah password dan username!! </p>
+            <form action="addregister.php" method="post">
                 <div class="input">
                     <label for="username">Username : </label>
                     <input type="text" name="username">
@@ -32,16 +32,12 @@
                 </div>
                 <div class="input">
                     <label for="password">Password : </label>
-                    <input type="text" name="password">
+                    <input type="text" name="pw">
                 </div>
-                <input type="submit" class="button-9" value="Login">
+                <input type="submit" value="Daftar!" class="button-11">
+
             </form>
         </div>
-        <a href="register.php">
-            <button class="button-10">Daftar</button>
-        </a>
-
-
     </div>
 </body>
 

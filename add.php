@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-    <?php include "style.css"?>
+    <?php include "styleedit.css"?>
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,9 +44,9 @@
                         <input type="text" placeholder="Tuliskan telepon " name="telepon" required>
                     </div>
                     <div>
-                        <div>
+                        <div class="paratombol">
                             <input type="submit" value="submit" class="submit">
-                            <a href="main.php" class="back">Lihat Tabel</a>
+                            <a href="main.php">Lihat Tabel</a>
                         </div>
                     </div>
                 </div>

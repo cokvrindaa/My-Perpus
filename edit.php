@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-    <?php include "style.css"?>
+    <?php include "styleedit.css"?>
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -52,9 +52,9 @@
                         <input type="text" value="<?php echo $data['telepon']?>" name="telepon">
                     </div>
                     <div>
-                        <div>
+                        <div class="paratombol">
                             <input type="submit" value="Submit" class="submit">
-                            <a href="main.php" class="back">Lihat Table</a>
+                            <a href="main.php">Lihat Table</a>
                         </div>
                     </div>
                     <?php
