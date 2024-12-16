@@ -16,7 +16,7 @@
         echo "
             <script>
                 alert('berhasill');
-                location.href = 'main.php';
+                location.href = 'dashboard.php';
             </script>
         ";
     }

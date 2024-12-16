@@ -39,6 +39,9 @@
                 <a href="add.php">
                     <button>Tambahkan data</button>
                 </a>
+                <a href="dashboard.php">
+                    <button>Dashboard</button>
+                </a>
                 <a href="logout.php">
                     <button>Logout</button>
                 </a>

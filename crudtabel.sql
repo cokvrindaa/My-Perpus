@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 01, 2024 at 02:00 PM
+-- Generation Time: Dec 16, 2024 at 10:32 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -33,16 +33,18 @@ CREATE TABLE `datanegara` (
   `nama` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL,
   `alamat` varchar(100) NOT NULL,
-  `telepon` varchar(100) NOT NULL
+  `telepon` varchar(100) NOT NULL,
+  `status` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `datanegara`
 --
 
-INSERT INTO `datanegara` (`id`, `buku`, `nama`, `email`, `alamat`, `telepon`) VALUES
-(21, 'dfsdf', 'dfdsf@fdsfsd', 'sdf@sfdfds', 'fdsf', 'sdfsdf'),
-(22, 'sdfdf', 'fsdfsf@fdsaf', 'dfsdf@fdsa', 'fdsfds', 'fdsfsdf');
+INSERT INTO `datanegara` (`id`, `buku`, `nama`, `email`, `alamat`, `telepon`, `status`) VALUES
+(35, 'tes', 'tes', 'tes@tes', 'tes', '00012323fds', 'Di pinjam'),
+(36, 'tes', 'tes', 'tes@fs', 'tes', 'tes', 'Di balikan'),
+(39, 'Apa Itu Sejarah', 'orang', 'orang@gmail.com', 'jalan jalan ke bali', '0123456789', 'Di pinjam');
 
 --
 -- Indexes for dumped tables
@@ -62,7 +64,7 @@ ALTER TABLE `datanegara`
 -- AUTO_INCREMENT for table `datanegara`
 --
 ALTER TABLE `datanegara`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

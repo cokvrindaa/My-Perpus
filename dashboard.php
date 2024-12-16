@@ -73,15 +73,15 @@
             </div>
             <div class="navsamping">
                 <a href="dashboard.php">
-                    <p>Dashboard</p>
+                    <button>Dashboard</button>
                 </a>
                 <a href="main.php">
-                    <p>Halaman Tabel</p>
+                    <button>Halaman Tabel</button>
                 </a>
-                <a href="">
-                    <p>Tentang</p>
-                </a>
+                <a href="logout.php">
+                    <button>Log Out</button>
 
+                </a>
             </div>
 
         </div>
