@@ -108,7 +108,7 @@
                 </div>
             </div>
             <div class="box">
-                <i class="fa-solid fa-book"></i>
+                <i class="fa-brands fa-readme"></i>
                 <div class="pembungkusteks">
                     <p>status buku di pinjam...</p>
                     <h1>
@@ -118,7 +118,7 @@
                 </div>
             </div>
             <div class="box">
-                <i class="fa-solid fa-book"></i>
+                <i class="fa-solid fa-check"></i>
                 <div class="pembungkusteks">
                     <p>status buku di balikan...</p>
                     <h1>

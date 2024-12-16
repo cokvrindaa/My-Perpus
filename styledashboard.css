@@ -106,3 +106,18 @@ a{
   -webkit-user-select: none;
   touch-action: manipulation;
 }
+@media screen and (max-width: 1500px) {
+  .box{
+    padding-left: 25px;
+    height: 100px;
+  }
+  .box i {
+    font-size: 40px;
+  }
+  .pembungkusteks h1{
+    font-size: 30px;
+  }
+  .navbar{
+    margin-bottom: 35px;
+  }
+}
