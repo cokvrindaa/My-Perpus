@@ -43,6 +43,11 @@
                         <label for="telepon">Telepon :</label>
                         <input type="text" placeholder="Tuliskan telepon " name="telepon" required>
                     </div>
+                    <div class="input">
+                        <label for="status">Status :</label>
+                        <input type="radio" name="status" value="Di pinjam" style="margin-left: -30px;">pinjam
+                        <input type="radio" name="status" value="Di balikan">balikan
+                    </div>
                     <div>
                         <div class="paratombol">
                             <input type="submit" value="submit" class="submit">

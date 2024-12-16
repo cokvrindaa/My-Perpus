@@ -54,7 +54,9 @@
                     <th>Email</th>
                     <th>Alamat</th>
                     <th>Telepon</th>
+                    <th>Status</th>
                     <th>Action</th>
+
                 </tr>
                 <?php
                     include "config.php";
@@ -70,6 +72,8 @@
                     <td><?php echo $data['email'] ?></td>
                     <td><?php echo $data['alamat'] ?></td>
                     <td><?php echo $data['telepon'] ?></td>
+                    <td><?php echo $data['status'] ?></td>
+
                     <td>
                         <a href="edit.php?id=<?php echo $data['id'] ?>" class="edit">Edit</a>
 

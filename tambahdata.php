@@ -5,8 +5,11 @@ $buku = $_POST['buku'];
 $email = $_POST['email'];
 $alamat = $_POST['alamat'];
 $telepon = $_POST['telepon'];
-$sql = "insert into crudtabel.datanegara values('', '$buku', '$nama', '$email', '$alamat', '$telepon')";
+$status = $_POST['status'];
+$sql = "insert into crudtabel.datanegara values('', '$buku', '$nama', '$email', '$alamat', '$telepon', '$status')";
+
 $query = mysqli_query($koneksi, $sql);
+
 if ($query){
     echo "
         <script>

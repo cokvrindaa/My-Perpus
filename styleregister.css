@@ -1,193 +1,192 @@
 html {
-    font-family: "Poppins", serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 0 px;
-    cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="%23FFF" stroke="%23000" stroke-width="2" d="M5.5 3.21V20.8c0 .45.54.67.85.35l4.86-4.86a.5.5 0 0 1 .35-.15h6.87a.5.5 0 0 0 .35-.85L6.35 2.85a.5.5 0 0 0-.85.35Z"></path></svg>'),
-      auto;
-    background-color: #405cf5;
-  }
-  :root {
-    --primary: rgb(4, 70, 176);
-  }
-  span {
-    color: var(--primary);
-  }
-  
-  body {
-    margin: 0;
-    display: flex;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .kontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    max-width: 700px;
-    max-height: 500px;
-    width: 100%;
-    background-color: white;
-    border: solid 1px white;
-    box-shadow: rgba(99, 99, 99, 0.4) 0px 5px 10px 0px;
-    border-radius: 20px;
-  }
-  
-  .judul h1 {
-    font-size: 80px;
-    margin: 0;
-    padding-top: 20px;
-  }
-  
-  .form {
-    display: flex;
-    /* border: solid black 1px; */
-    height: 100px;
-    margin-bottom: 80px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    /* margin-top: -15px; */
-    padding: 10px;
-  }
-  .form p {
-    font-size: 20px;
-  }
-  
-  .input {
-    display: flex;
-    gap: 20px;
-    flex-direction: row;
-    margin-bottom: 10px;
-  }
-  input[type=text]{
-    padding-left: 2px;
-  }
-  
-  input {
-    width: 300px;
-    border-radius: 5px;
-  }
-  
-  label {
-    width: 100px; /* Pastikan label memiliki lebar yang konsisten */
-    text-align: left; /* Agar teks rata kanan */
-  }
-  
-  /* button */
-  .button-9 {
-    appearance: button;
-    backface-visibility: hidden;
-    background-color: #405cf5;
-    border-radius: 6px;
-    border-width: 0;
-    box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
-      rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
-    box-sizing: border-box;
-    color: #fff;
-    cursor: pointer;
-    font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
-      Ubuntu, sans-serif;
-    font-size: 100%;
-    height: 44px;
-    line-height: 1.15;
-    margin: 12px 0 0;
-    outline: none;
-    overflow: hidden;
-    padding: 0 25px;
-    position: relative;
-    text-align: center;
-    text-transform: none;
-    transform: translateZ(0);
-    transition: all 0.2s, box-shadow 0.08s ease-in;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    width: 38%;
-    margin-top: 20px;
-  }
-  
-  .button-10 {
-    appearance: button;
-    backface-visibility: hidden;
-    background-color: #405cf5;
-    border-radius: 6px;
-    border-width: 0;
-    box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
-      rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
-    box-sizing: border-box;
-    color: #fff;
-    cursor: pointer;
-    font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
-      Ubuntu, sans-serif;
-    font-size: 100%;
-    height: 44px;
-    line-height: 1.15;
-    margin: 12px 0 0;
-    outline: none;
-    overflow: hidden;
-    padding: 0 25px;
-    position: relative;
-    text-align: center;
-    text-transform: none;
-    transform: translateZ(0);
-    transition: all 0.2s, box-shadow 0.08s ease-in;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    width: 160px;
-    margin-top: 80px;
-    margin-bottom: 30px;
-  }
-  .form p{
-    margin-top: 80px;
-  }
-  .button-11 {
-    appearance: button;
-    backface-visibility: hidden;
-    background-color: #405cf5;
-    border-radius: 6px;
-    border-width: 0;
-    box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
-      rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
-    box-sizing: border-box;
-    color: #fff;
-    cursor: pointer;
-    font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
-      Ubuntu, sans-serif;
-    font-size: 100%;
-    height: 44px;
-    line-height: 1.15;
-    margin: 12px 0 0;
-    outline: none;
-    overflow: hidden;
-    padding: 0 25px;
-    position: relative;
-    text-align: center;
-    text-transform: none;
-    transform: translateZ(0);
-    transition: all 0.2s, box-shadow 0.08s ease-in;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    width: 160px;
-    margin-top: 5px;
-  }
-  .button-9:disabled {
-    cursor: default;
-  }
-  .button-9:hover {
-    cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="%23FFF" stroke="%23000" stroke-width="2" stroke-linejoin="round" d="M10 11V8.99c0-.88.59-1.64 1.44-1.86h.05A1.99 1.99 0 0 1 14 9.05V12v-2c0-.88.6-1.65 1.46-1.87h.05A1.98 1.98 0 0 1 18 10.06V13v-1.94a2 2 0 0 1 1.51-1.94h0A2 2 0 0 1 22 11.06V14c0 .6-.08 1.27-.21 1.97a7.96 7.96 0 0 1-7.55 6.48 54.98 54.98 0 0 1-4.48 0 7.96 7.96 0 0 1-7.55-6.48C2.08 15.27 2 14.59 2 14v-1.49c0-1.11.9-2.01 2.01-2.01h0a2 2 0 0 1 2.01 2.03l-.01.97v-10c0-1.1.9-2 2-2h0a2 2 0 0 1 2 2V11Z"></path></svg>'),
-      pointer;
-  }
-  
-  .button-9:focus {
-    box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
-      rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
-      rgba(50, 151, 211, 0.3) 0 0 0 4px;
-  }
-  
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0 px;
+  cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="%23FFF" stroke="%23000" stroke-width="2" d="M5.5 3.21V20.8c0 .45.54.67.85.35l4.86-4.86a.5.5 0 0 1 .35-.15h6.87a.5.5 0 0 0 .35-.85L6.35 2.85a.5.5 0 0 0-.85.35Z"></path></svg>'),
+    auto;
+  background-color: #405cf5;
+}
+:root {
+  --primary: rgb(4, 70, 176);
+}
+span {
+  color: var(--primary);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.kontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 700px;
+  max-height: 500px;
+  width: 100%;
+  background-color: white;
+  border: solid 1px white;
+  box-shadow: rgba(99, 99, 99, 0.4) 0px 5px 10px 0px;
+  border-radius: 20px;
+}
+
+.judul h1 {
+  font-size: 80px;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.form {
+  display: flex;
+  /* border: solid black 1px; */
+  height: 100px;
+  margin-bottom: 80px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* margin-top: -15px; */
+  padding: 10px;
+}
+.form p {
+  font-size: 20px;
+}
+
+.input {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+input[type="text"] {
+  padding-left: 2px;
+}
+
+input {
+  width: 300px;
+  border-radius: 5px;
+}
+
+label {
+  width: 100px; /* Pastikan label memiliki lebar yang konsisten */
+  text-align: left; /* Agar teks rata kanan */
+}
+
+/* button */
+.button-9 {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    Ubuntu, sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all 0.2s, box-shadow 0.08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 38%;
+  margin-top: 20px;
+}
+
+.button-10 {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    Ubuntu, sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all 0.2s, box-shadow 0.08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 160px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.form p {
+  margin-top: 80px;
+}
+.button-11 {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    Ubuntu, sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all 0.2s, box-shadow 0.08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 160px;
+  margin-top: 5px;
+}
+.button-9:disabled {
+  cursor: default;
+}
+.button-9:hover {
+  cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="%23FFF" stroke="%23000" stroke-width="2" stroke-linejoin="round" d="M10 11V8.99c0-.88.59-1.64 1.44-1.86h.05A1.99 1.99 0 0 1 14 9.05V12v-2c0-.88.6-1.65 1.46-1.87h.05A1.98 1.98 0 0 1 18 10.06V13v-1.94a2 2 0 0 1 1.51-1.94h0A2 2 0 0 1 22 11.06V14c0 .6-.08 1.27-.21 1.97a7.96 7.96 0 0 1-7.55 6.48 54.98 54.98 0 0 1-4.48 0 7.96 7.96 0 0 1-7.55-6.48C2.08 15.27 2 14.59 2 14v-1.49c0-1.11.9-2.01 2.01-2.01h0a2 2 0 0 1 2.01 2.03l-.01.97v-10c0-1.1.9-2 2-2h0a2 2 0 0 1 2 2V11Z"></path></svg>'),
+    pointer;
+}
+
+.button-9:focus {
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
+    rgba(50, 151, 211, 0.3) 0 0 0 4px;
+}

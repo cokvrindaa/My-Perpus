@@ -1,0 +1,73 @@
+html {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24"><path fill="%23FFF" stroke="%23000" stroke-width="2" d="M5.5 3.21V20.8c0 .45.54.67.85.35l4.86-4.86a.5.5 0 0 1 .35-.15h6.87a.5.5 0 0 0 .35-.85L6.35 2.85a.5.5 0 0 0-.85.35Z"></path></svg>'),
+    auto;
+}
+:root {
+  --primary: rgb(4, 70, 176);
+}
+
+span {
+  color: var(--primary);
+}
+
+body {
+  margin: 0px;
+  height: 100vh;
+}
+.kontainerutama {
+  padding: 30px 3%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.dataatas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+  /* ukuran pc */
+  max-width: 10000px;
+}
+.box {
+  background-color: var(--primary);
+  color: white;
+  height: 120px; /* Tinggi tetap untuk persegi panjang */
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  gap: 20px;
+}
+.pembungkusteks p,
+.pembungkusteks h1 {
+  margin: 0; /* Hilangkan margin default */
+}
+.pembungkusteks h1 {
+  font-size: 40px;
+  margin-top: -5px;
+}
+.pembungkusteks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Pastikan teks rata kiri */
+}
+.box i {
+  margin-top: -5px;
+  font-size: 50px;
+}
+.navsamping{
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}

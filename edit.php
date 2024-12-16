@@ -51,6 +51,13 @@
                         <label for="name">Telepon :</label>
                         <input type="text" value="<?php echo $data['telepon']?>" name="telepon">
                     </div>
+                    <div class="input">
+                        <label for="status">Status:</label>
+                        <input type="radio" name="status" value="Di pinjam"
+                            <?php echo ($data['status'] == 'Di pinjam') ? 'checked' : ''; ?>> Pinjam
+                        <input type="radio" name="status" value="Di balikan"
+                            <?php echo ($data['status'] == 'Di balikan') ? 'checked' : ''; ?>> Balikan
+                    </div>
                     <div>
                         <div class="paratombol">
                             <input type="submit" value="Submit" class="submit">

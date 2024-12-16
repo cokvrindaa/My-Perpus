@@ -6,9 +6,8 @@
     $email = $_POST['email'];
     $alamat = $_POST['alamat'];
     $telepon = $_POST['telepon'];
-
-    $sql = "update crudtabel.datanegara set buku = '$buku', nama = '$nama', email = '$email', alamat = '$alamat', telepon = '$telepon' where id = '$id'";
-    
+    $status = $_POST['status'];
+    $sql = "UPDATE crudtabel.datanegara SET buku = '$buku', nama = '$nama', email = '$email', alamat = '$alamat', telepon = '$telepon', status = '$status' WHERE id = '$id'";
     $query = mysqli_query($koneksi, $sql);
     if ($query){
         echo "
